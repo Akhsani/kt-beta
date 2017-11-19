@@ -1,0 +1,176 @@
+
+div[class*='col-'] > form div[class*='col-']:first-child:nth-last-child(2) {
+    padding-left: 0;
+}
+
+
+@media (max-width: 767px) {
+  .wizard > .content {
+       min-height: unset; 
+  }
+}
+
+.wizard > .content > .body {
+    position: RELATIVE;
+}
+
+.input-number .input-number__controls > span {
+  min-width: 3em;
+}
+
+.ui-timepicker-wrapper {
+  overflow-y: auto;
+  max-height: 150px;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow:0 23px 40px rgba(0,0,0,0.2);
+  -moz-box-shadow:0 23px 40px rgba(0,0,0,0.2);
+  box-shadow:0 23px 40px rgba(0,0,0,0.2);
+  outline: none;
+  z-index: 10001;
+  padding: 0.92857143em;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  margin-top: 0.46428571em;
+}
+
+.form-horizontal {
+  display: flex;
+}
+.form-horizontal > div[class*='col-'],
+.form-horizontal > div[class*='col-']:not(:last-child) {
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.form-horizontal .picker {
+  top: 100%;
+}
+@media all and (max-width: 990px) {
+  .form-horizontal {
+    display: block;
+  }
+  label {
+    margin-top: 0.46428571em;
+  }
+  button {
+    margin-top: 1.85714286em;
+  }
+}
+
+.datepicker.datepicker--fluid + .picker {
+  max-width: none;
+}
+
+.comments__list li:nth-child(odd) {
+  background: #fff;
+}
+
+@media (min-width: 768px){
+  .comments__list li {
+    padding: 1.7em;
+  }
+}
+
+
+.bar .logo {
+    max-height: 2.5em;
+    max-width: none;
+}
+
+h1:not(:last-child),
+.h1:not(:last-child) {
+  margin-bottom: 0em;
+}
+
+.feature-1 > a.block img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.talent--name {
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+@media all and (max-width: 767px) {
+  .feature p {
+    min-height: auto;
+    margin-left: 0px;
+  }
+}
+
+.feature:not(.boxed) {
+     margin-bottom: unset; 
+}
+
+.pricedate > .picker {
+	max-width: unset;
+	float: right;
+	position: relative;
+}
+
+.image--ava {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+img.image--ava--sm {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+img.image--ava--md {
+  height: 52;
+  width: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.picker__day--disabled, .picker__day--disabled:hover {
+    border-color: whitesmoke;
+    color: #ddd;
+    cursor: default;
+}
+
+.tabs {
+	border: unset;
+	margin-bottom: 0px;
+}
+
+.tabs li:not(:last-child) {
+    border-right: unset;
+}
+.notification.side-menu {
+    width: 33em;
+}
+
+@media all and (max-width: 767px) {
+  .bar.bar--mobile-sticky[data-scroll-class*='fixed'].pos-fixed {
+    top: 0px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .bar.bar--bottom.bar--mobile-sticky[data-scroll-class*='fixed'].pos-fixed {
+    top: unset;
+    bottom: 0px;
+  }
+}
+
+.section--menu > a:not(:last-child){
+  margin-right: 1.23809524em;
+}
+
+.section--menu > a:not(:hover){
+  color: #252525;
+  text-decoration: unset;
+}
